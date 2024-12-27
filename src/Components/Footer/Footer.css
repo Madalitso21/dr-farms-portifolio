@@ -1,0 +1,74 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    padding: 0 8.6rem;
+    box-sizing: border-box;
+    position: relative;
+    background-color:#1A1A19 ;
+}
+.left-f, right-f{
+    width: 50%;
+    padding: 1rem;
+}
+.mission-description{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+.collaborate{
+    display: flex;
+    color: antiquewhite;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-overflow: inherit;
+
+}
+.califoraction{
+    font-size: 1rem;
+    font-weight: 200px;
+    width: 75%;
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+    color: white;
+}
+.information{
+    font-size: 2rem;
+    font-weight: bold;
+    text-overflow: inherit;
+    margin-top: 0;
+    color: green;
+
+}
+.contact-details{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;;
+    text-overflow: inherit;
+
+}
+.location, .email, .contact{
+    font-size: 1rem;
+    font-weight: 200;
+    width: 75%;
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+    color: white;
+}

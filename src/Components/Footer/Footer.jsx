@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.css';
 
 function Footer() {
   return (
@@ -17,7 +18,7 @@ function Footer() {
          </div>
          <div className='right-f'>
            <div className='contact details'>
-            <div className='information'> <span>Contact deatils</span></div>
+            <div className='information'> <span>Contact details</span></div>
             <div className='location'><span>Zomba, Malawi</span></div>
             <div className='email'> <span>dorothyritch21@gmail.com</span></div>
             <div className='contact'> <span>+265 881180818</span></div>
