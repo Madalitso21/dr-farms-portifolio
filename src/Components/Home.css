@@ -29,7 +29,9 @@
     color: black;
 }
 .dom p{
+    font-family: fantasy;
     font-size: 20px;
     color: black;
+    margin-right: 200px;
 
 }

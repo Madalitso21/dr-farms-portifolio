@@ -7,7 +7,7 @@ function Home() {
         <div className='food'>
             <div className='dom'>
                 <h1> WELCOME TO DR FARMS </h1>
-                    <p> fruits and vegetables , meat and legumeseach contribute uniquely to our /n diets and agricultural systems</p>
+                    <p> fruits and vegetables , meat and legumes each contribute uniquely to our diets and agricultural systems</p>
                 
                      </div>
             </div>
