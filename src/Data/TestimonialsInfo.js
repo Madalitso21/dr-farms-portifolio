@@ -9,6 +9,6 @@ export const TestimonialsInfo = [
         number: '0881 18 08 18',
         image: mada,
         dESC: 'DESCRIPTION',
-        description: 'This website aims at showcasing fresh farm products that are available at our site',
+        description: 'This website aims at showcasing fresh farm products that are available at our farm',
     }
 ]
