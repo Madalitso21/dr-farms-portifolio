@@ -9,7 +9,7 @@ function Home() {
                 <h1> WELCOME TO DR FARMS </h1>
                     <p> fruits and vegetables , meat and legumes each contribute uniquely to our diets and agricultural systems</p>
                 
-                     </div>
+                  </div>
             </div>
 
     </div>

@@ -1,4 +1,4 @@
-.categories{
+.fruitsAndVegetables{
     background-color: #ECFFE6;
     height: 30vh;
     width: 202.5vh;
@@ -7,13 +7,6 @@
     align-content: center;
     
 }
-/* .container {
-  display: 'flex';
-  justifyContent: 'center';
-  flexWrap: 'wrap';
-  gap: '20px';
-} */
-
 .card{
     width: 18rem;
     height: 18rem;

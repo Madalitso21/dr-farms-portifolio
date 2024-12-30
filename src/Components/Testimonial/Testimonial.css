@@ -4,15 +4,15 @@
     gap: 1rem;
     padding: 2rem;
     justify-content: space-between;
-    width: 100%;
+    width: 197vh;
     position: relative;
-    margin-bottom: 2rem;
-    height: auto;
+    height: 70vh;
+    background-color: green;
 }
 .reverse{
     flex-direction: column-reverse;
 }
-.left-column{
+.left-section{
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -21,41 +21,58 @@
     padding: 5rem;
     margin-left:40rem
 }
-.left-column > :nth-child(2),
-.left-column > :nth-child(3){
+.left-section > :nth-child(1) {
     font-size:3rem;
     font-weight: bold;
+    font-size: xx-large;
+    
+}
+.left-section > :nth-child(2){
+    font-size:3rem;
+    font-size: x-large;
 }
 
-.left-column > :nth-child(4){
+.left-section > :nth-child(2){
     text-transform: none;
     text-align: justify;
     letter-spacing: 2px;
     line-height: 40px;
 }
-.right-column{
+.right-section{
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 3rem;
-}.right-column > image{
-    position: absolute;
-    width: 27rem;
-    height:30rem;
+}
+.right-section > img{
+    position: absolute;  
+     width: 27rem;
+    height: 30rem;;
     object-fit: cover;
     left: 8rem;
     top: 2rem;
+    
 }
-.right-column > :nth-child(2){
+.right-section > :nth-child(1){
+    position: absolute;
+    width: 27rem;
+    height: 30rem;
+    background: transparent;
+    border: 2px solid black;
+    left: 9rem;
+    top: 0.9rem;
+}
+
+.right-section > :nth-child(2){
     position: absolute;
     width: 27rem;
     height: 29rem;
-    background: var(--plancard);
+    background:hotpink;
     left: 7rem;
     top: 4rem;
 }
-.separator-line{
+/* .separator-line{
     width: 92%;
     height: 2px;
     background-color: #ccc;
@@ -65,4 +82,4 @@
     left: 0;
     right:0
     
-}
+} */
