@@ -1,18 +1,17 @@
 .categories{
     background-color: #ECFFE6;
-    height: 30vh;
+    height: 65vh;
     width: 202.5vh;
     font-weight: bolder;
-    color:#FF7777 ;
     align-content: center;
     
 }
-/* .container {
-  display: 'flex';
-  justifyContent: 'center';
-  flexWrap: 'wrap';
-  gap: '20px';
-} */
+
+.title {
+  color:#FF7777;
+  font-size : 1.25rem;
+  margin-bottom: 3rem;
+}
 
 .card{
     width: 18rem;
@@ -21,8 +20,7 @@
     border-radius : 8px;
     overflow: hidden;
     box-shadow : 0 2px 4px #FF7777;
-    background-color:  #ECFFE6;
-    
+    background-color:  #FF7777;
  
   }
   .image{
@@ -40,3 +38,10 @@
     font-size : 1rem;
     color: #FF7777
   }
+
+  .categories a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  

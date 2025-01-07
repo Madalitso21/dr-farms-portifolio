@@ -4,8 +4,10 @@ import './Legumes.css';
 
 const Legumes = () => {
   return (
+    <div className ='legumes' >
+          <div className='title'> LEGUMES</div>
           <div style={styles.container}>
-             <div className ='legumes' >LEGUMES</div>
+            
             <Card
               title= "BEANS" 
               imageUrl="https://i.ytimg.com/vi/uPA7a__jkfQ/maxresdefault.jpg"
@@ -38,7 +40,7 @@ const Legumes = () => {
               title="CHICK PEAS" 
               imageUrl="https://pic.rutubelist.ru/video/a7/51/a7519491131050c4496c04c8d81a105e.jpg"
             />
-             
+             </div>
             </div>
         );
       };

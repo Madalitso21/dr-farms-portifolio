@@ -4,8 +4,10 @@ import './Meat.css';
 
 const Meat = () => {
   return (
+    <div className ='meat' >
+      <div className='title'> MEAT</div>
             <div style={styles.container}>
-             <div className ='meat' >MEAT</div>
+             
             <Card
               title= "CHICKEN" 
               imageUrl="https://st6.stpulscen.ru/images/product/381/842/649_big.jpg"
@@ -39,6 +41,7 @@ const Meat = () => {
               imageUrl="https://avatars.mds.yandex.net/get-altay/1025206/2a0000018627aca89f9870571976b2205b3b/XXL_height"
             />
              
+            </div>
             </div>
         );
       };

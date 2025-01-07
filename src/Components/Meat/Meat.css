@@ -1,8 +1,12 @@
 .meat{
     background-color: #ECFFE6;
-    height: 30vh;
+    height: 90vh;
     width: 202.5vh;
     font-weight: bolder;
     color:#FF7777 ;
     align-content: center;
+    font-size: 1.5rem;
+}
+.title{
+    padding-top: 2rem;
 }

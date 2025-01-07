@@ -1,35 +1,28 @@
 .fruitsAndVegetables{
-    background-color: #ECFFE6;
-    height: 30vh;
-    width: 202.5vh;
-    font-weight: bolder;
-    color:#FF7777 ;
-    align-content: center;
+  background-color: #ECFFE6;
+  height: 90vh;
+  width: 202.5vh;
+  font-weight: bolder;
+  color:#FF7777 ;
+  align-content: center;
+  font-size: 1.5rem;
     
 }
 .card{
-    width: 18rem;
-    height: 18rem;
-    border: 1px solid #ddd;
-    border-radius : 8px;
-    overflow: hidden;
-    box-shadow : 0 2px 4px #FF7777;
-    background-color:  #ECFFE6;
-    
- 
-  }
-  .image{
-    width: 100%;
-    height: auto;
-  }
-  .cardBody{
-    padding: '15px',
-  }
-  title{
-    margin-bottom : 10px;
-    font-size : 1.25rem;
-  }
-  text{
-    font-size : 1rem;
-    color: #FF7777
-  }
+  width: 18rem;
+  height: 18rem;
+  border: 1px solid #ddd;
+  border-radius : 8px;
+  overflow: hidden;
+  box-shadow : 0 2px 4px #FF7777;    
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+  
+.title{
+  padding-top: 2rem;
+}
