@@ -1,6 +1,7 @@
 .Dorothy{
     position: relative;
     height: 80vh;
+    width: 208vh;
     display: flex;
     justify-content: center;
     align-items: center;

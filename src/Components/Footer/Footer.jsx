@@ -20,7 +20,7 @@ function Footer() {
            <div className='contact-details'>
             <div className='information'> <span>CONTACT DETAILS</span></div>
             <div className='location'><span>Zomba, Malawi</span></div>
-            <div className='email'> <span>dorothyfarmfoods22@gmail.com</span></div>
+            <div className='email'> <span>dorothyritch21@gmail.com</span></div>
             <div className='contact'> <span>+265 881180818</span></div>
            </div>
          </div>
